@@ -1,0 +1,19 @@
+{
+  "name": "R7FrontendTest",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js && node-sass -o public/css public/scss/style.scss",
+    "cypress:chrome": "cypress run -b chrome",
+    "cypress:open": "cypress open",
+    "cypress": "cypress run"
+  },
+  "dependencies": {
+    "connect": "~3.1.1",
+    "node-sass": "^4.13.1",
+    "serve-static": "~1.5.3"
+  },
+  "devDependencies": {
+    "cypress": "^4.0.1",
+    "gulp": "^4.0.2"
+  }
+}

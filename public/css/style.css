@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.fazenda {
+  margin-top: -100px;
+}
+li img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: 5px solid #bb3639;
+}
+li:hover img {
+  border: 5px solid #f2f0f1;
+}
+li:hover p {
+  color: #f1f1f1;
+}
+li:hover .descricao {
+  color: #55171a;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 10px 10px;
+}
+.descricao {
+  color: #9f9f9f;
+}
+.nome {
+  color: #bb3639;
+}
+ul:nth-child(even) {
+  background: #f2f0f1;
+}
+li:hover {
+  background: #bb3639;
+}
+ul {
+  margin: 0 auto;
+  width: 40%;
+}
+p {
+  font-size: 20px;
+  margin-left: 25px;
+  text-align: justify;
+}
+.wrapper {
+  margin-top: 20px;
+}
+.tolt {
+  position: relative;
+}
+.tolt .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  height: 80px;
+  background: linear-gradient(#b93739 40px, #f8f6f7 40px);
+  font-size: 10px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 105%;
+}
+.porcentagem p {
+  color: #909090 !important;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 25px;
+}
+.aprovacao p {
+  font-size: 17px !important;
+  font-weight: 700;
+}
+.tolt:hover .tooltiptext {
+  visibility: visible;
+}
+.aprovacao {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.porcentagem {
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media (max-width: 414px) {
+  p {
+    font-size: 18px;
+  }
+  ul {
+    width: 95%;
+  }
+  li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 5px solid #bb3639;
+  }
+  .wrapper {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 320px) {
+  p {
+    font-size: 15px;
+  }
+  ul {
+    width: 100%;
+  }
+  li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 5px solid #bb3639;
+  }
+  .wrapper {
+    margin-top: 10px;
+  }
+  .fazenda {
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+  }
+}
