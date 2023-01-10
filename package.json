@@ -8,9 +8,9 @@
     "cypress": "cypress run"
   },
   "dependencies": {
-    "connect": "~3.1.1",
+    "connect": "~3.7.0",
     "node-sass": "^4.13.1",
-    "serve-static": "~1.5.3"
+    "serve-static": "~1.15.0"
   },
   "devDependencies": {
     "cypress": "^4.0.1",
